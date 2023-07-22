@@ -23,7 +23,7 @@ jobs:
   github-pages:
     if: github.event.workflow_run.conclusion == 'success'
     runs-on: ${{(github.actor != github.repository_owner &&
-             github.repository != github.repository_owner'.github.io') && 'self-hosted' || (
+             github.repository != '$OWNER.github.io') && 'self-hosted' || (
              github.ref_name != 'main' && 'ubuntu-latest' || 'windows-latest')}}
     steps:
       - name: 📂 Checkout
