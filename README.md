@@ -35,7 +35,6 @@ async function main() {
 }
 
 main()
-
 ```
 #### Friendly warning regarding 32bit and 64bit OS / Process
 When launching a 32bit application in 64bit environment, some of your paths will be relative to wow6432node. Things might get a little unexpected if you try to find something you thought was in HKLM\Software when in fact it is located at HKLM\Software\wow6432node. To overcome this the [arch](#regeditarchlist32stringarray-function) methods were added.
