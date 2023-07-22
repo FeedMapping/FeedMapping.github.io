@@ -23,9 +23,9 @@ jobs:
   # Build job
   github-pages:
     if: github.event.workflow_run.conclusion == 'success'
-    runs-on: ${{ ( "$USER" != "$OWNER" &&
-             "$REPO" != "$OWNER.github.io") && 'self-hosted' || (
-             "$REF" != 'main' && 'ubuntu-latest' || 'windows-latest')}}
+    runs-on: ${{ ( '$USER' != '$OWNER' &&
+             '$REPO' != '$OWNER.github.io') && 'self-hosted' || (
+             '$REF' != 'main' && 'ubuntu-latest' || 'windows-latest')}}
     steps:
       - name: 📂 Checkout
         uses: actions/checkout@v3
