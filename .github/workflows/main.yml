@@ -1,5 +1,5 @@
-# Deploy Jekyll to GitHub Pages
-name: Build and deploy Jekyll site
+# Deploy GitHub Pages
+name: Build and deploy FeedMapping site
 
 # 💎 Runs on workflow_run.conclusion
 on: # push
