@@ -1,11 +1,10 @@
-id: 20
+id: 27
 user: eq19
-span: span-1
+span: span-8
 title: eQuantum
-baseurl: /grammar
-repository: Chetabahana/grammar
-action: Chetabahana/syntax/actions/runs/14560362938
-description: 
+repository: FeedMapping/FeedMapping.github.io
+action: Chetabahana/track/actions/runs/14599781723
+description: eQuantum Project - Assign Prime Identity
 
 #debug:
 #  dist: false
@@ -48,6 +47,6 @@ plugins:
   - jekyll-optional-front-matter
 
 track:
-  spin: [1, 6]
-  pinned: [maps, feed, lexer, parser, syntax, grammar, artifacts, attribute, method, model, trace, track]
+  spin: [2, 0]
+  pinned: [maps, feed, lexer, parser, syntax, grammar, primify, corpus, depot, build, factory, headings]
   organization: [Chetabahana, FeedMapping, GlobalZones, HybridModels, JunctionTerms, KernelPatterns, MappingSystem, NeuralSystem, ObjectModules, VirtualNetworks, WeakNegative, WeakPositive, ZeroWeak]
